@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .game-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #34495e;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #3498db;
+            margin-bottom: 30px;
+        }
+        
+        .player-card {
+            background-color: #2c3e50;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        .player-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        
+        .player-desc {
+            font-style: italic;
+            color: #95a5a6;
+            margin-bottom: 10px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        
+        .weapon {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .winner {
+            text-align: center;
+            font-size: 1.5em;
+            color: #f39c12;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #2c3e50;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>🎮 RPG Битва</h1>
+        <div id="game-log"></div>
+        <div id="winner" class="winner" style="display: none;"></div>
+    </div>
+</body>
+</html>
